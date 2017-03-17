@@ -1,12 +1,10 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: scollins
- * Date: 17/02/17
- * Time: 21:02
- */
+namespace AppBundle\Entity;
+
 class User
 {
-
+    private $name;
+    private $address;
+    private $notes;
 }

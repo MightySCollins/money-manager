@@ -1,12 +1,10 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: scollins
- * Date: 17/02/17
- * Time: 22:15
- */
-class ValidationException
+namespace AppBundle\Exception;
+
+use Exception;
+
+class ValidationException extends Exception
 {
 
 }
